@@ -1,0 +1,511 @@
+body{
+    background-color:rgb(51, 48, 48)
+}
+ 
+/* Making of nav Bar */
+nav > ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-family:arial;
+    font-size:19px;
+}
+li > .subchild-1--2{
+    position:relative;
+    right:110px;
+}
+.sms234{
+ height:35px;
+ width:35px;
+ position:relative;
+ top:20px;
+ right:20px;
+}
+.child-1{
+    position:relative;
+    right:80px;
+    margin-top:25px;
+}
+.ol-1{
+    color:white;
+}
+.ol-2{
+    color:#988e8e86
+
+    
+}
+.child-2{
+    margin-top:25px;
+    position:relative;
+ right:150px;
+}
+.child-3{
+    margin-top:25px;
+   position:relative;
+   right:218px;
+}
+.child-4{
+    margin-top:25px;
+    position:relative;
+    right:290px;
+}
+.pp-1{
+margin-top:25px;
+position:relative;
+right:-60px;
+color:rgb(218, 211, 211);
+}
+.pp-2{
+    margin-top:25px;
+    position:relative;
+right:-10px;
+color:white;
+}
+.pp-3{
+    margin-top:25px;
+    position:relative;
+    right:40px;
+    color:rgb(218, 211, 211) ;
+}
+
+/* Making of a round circle in which picture is set */
+ .sub-2002{
+    position:relative;
+    left:380px;
+     background-color:#0b0a0ab5;
+    flex-direction:row;
+    justify-content:center;
+    height:390px;
+    width:450px;
+    border-radius:  50%;
+ }
+ 
+/* resizing and adjusting of picture  */
+ .pnp-2003{
+    position:relative;
+    top:45px;
+    left:20px;
+    height:450px;
+    width:390px; 
+}
+/* making of introduction */
+.ppp-1{
+    font-family:arial;
+    font-size:45px;
+    position:relative;
+    top:-370px;
+    left:70px;
+}
+#ppp-3{
+    position:relative;
+    top:-460px;
+    left:70px;
+    font-family: arial;
+    font-size:60px;
+    color:rgb(255, 255, 255);
+    letter-spacing: 3px;
+}
+/* making of horizonal line for name */
+ .hl-1{
+    width:140px;
+    position:relative;
+    top:-600px;
+    left:-520px;
+    color:rgb(240, 185, 47);
+ }
+/* making of itroduction paragraph  */
+div>h5{
+    font-family:arial;
+    font-size:18px;
+    margin-left:75px;
+    margin-top:-460px;
+    line-height:30px
+}
+/* making og services paragraph */
+.pnn-2004{
+    margin-left:760px;
+    margin-top:-358px;
+    font-family:arial;
+    font-size:18px;
+}
+.ol-4{
+    color:rgb(160, 148, 148)
+}
+.mnm-2002{
+    font-family:arial;
+    font-size:20px;
+    margin-top:-30px;
+    margin-left:764px;
+    line-height:26px;
+}
+.ol-3{
+    color:beige
+}
+.pic---0{
+     position:relative;
+    left:868px;
+    top:-33px;
+    color:goldenrod
+}
+.pic---1{
+    position:relative;
+    left:750px;
+    top:4px;
+    color:goldenrod
+}
+.pic---2{
+    position:relative;
+    left:760px;
+    top:4px;
+    color:goldenrod
+}
+.pic---3{
+    position:relative;
+    left:770px;
+    top:4px;
+    color:goldenrod
+}
+.pic---4{
+    position:relative;
+    left:780px;
+    top:4px;
+    color:goldenrod
+}
+
+.smit-ee-2123{
+    margin-left:765px;
+    font-family:arial;
+    color:goldenrod
+}
+/*making of second part of color */
+#bpb-222{
+    background-color:rgb(31, 29, 29);
+    height:1000px;
+    margin-top:280px
+    
+}
+/* making of combination of google , slack ,meta ,linkdin  */
+.parent-3 {
+    height:80px;
+    width:1186px;
+    background-color:rgb(90, 87, 87);
+    display:flex;
+    margin-top:20px;
+    margin-left:75px;
+    position:relative;
+    top:-40px;
+}  
+.box-1{
+    height:50px;
+    width:200px;
+    background-color:  rgb(25, 25, 25);
+    margin-top:15px;
+    margin-left:40px;
+}
+/*For logo of meta */
+#logo-1{
+    position:relative;
+    left: 40px;
+    top:-5px;
+    bottom:10px;
+    height:60px;
+    width:120px;
+}
+
+
+.box-2{
+    height:50px;
+    width:200px; 
+    background-color: rgb(25, 25, 25);
+    margin:90px;
+    margin-right:100px;
+    margin-top:15px;}
+   /*For logo of google */
+   #logo-2{
+   position:relative;
+   left: 40px;
+   top:-18px;
+   height:90px;
+   width:120px;
+   }
+
+.box-3{
+    height:50px;
+    width:200px; 
+    background-color: rgb(25, 25, 25);
+    margin:10px;
+    margin-top:15px;
+    margin-left:20px;
+}
+/*For logo of linkdin */
+#logo-3{ 
+    position:relative;
+    left: 20px;
+    top:-16px;
+    height:85px;
+    width:170px;
+}
+.box-4{
+    height:50px;
+     width:200px;
+    background-color: rgb(25, 25, 25);
+    margin-left:90px;
+    margin-top:15px;
+}
+/*For logo of slack */
+#logo-4{
+    position:relative;
+    left: -1px;
+    top:-13px;
+    height:80px;
+    width:200px;
+}
+/* making part of acheievments */
+.letter-1{
+    font-family:arial;
+    font-size:30px;
+    margin-top:90px;
+    margin-left:80px;
+ } 
+ .letter-2{
+    font-family:arial;
+    position:relative;
+    top:470px;
+    left:10px;
+ }
+ 
+ div > .first-1{
+    position:relative;
+    left:85px;
+    top:175px;
+    font-family:arial;
+    color:goldenrod;
+ }
+ div > .first-2{
+    position:relative;
+    top:620px;
+    left:7px;
+    font-family:arial;
+ }
+ div > .first-3{
+    position:relative;
+    left:270px;
+    top:146px;
+    font-family:arial;
+    color:goldenrod;}
+    div > .first-4{
+        position:relative;
+        top:590px;
+        left:197px;
+        font-family:arial;
+     }
+     div > .first-5{
+        position:relative;
+        left:80px;
+        top:220px;
+        font-family:arial;
+        color:goldenrod;}
+     
+     div > .first-6{
+        position:relative;
+        top:660px;
+        left:8px;
+        font-family:arial;
+     }
+     div > .first-7{
+        position:relative;
+        left:270px;
+        top:190px;
+        font-family:arial;
+        color:goldenrod;}
+     
+     
+     div > .first-8{
+        position:relative;
+        top:630px;
+        left:200px;
+        font-family:arial;
+     }
+
+ 
+/* making ui/ux frontend and mobile development column like portion */
+.children-1{
+    margin-left:680px;
+    margin-top:100px;
+    padding:20px;
+}
+.childrensub1{
+    font-family:arial;
+    font-size:20px;
+    margin-left:890px;
+    margin-top:-120px;
+}
+.childrensub2{
+    font-family:arial;
+    margin-left:890px;
+}
+.pkp-231{
+    margin-top:60px;
+    margin-left:700px;
+    width:565px;
+}
+.arrow-1{
+    color:goldenrod;
+    position:relative;
+    left:1240px;
+    top:-135px;
+    width:100px;
+}
+#children-2{
+   margin-top:1px;
+   margin-left:700px;
+   width:170px;
+   height:140px;
+}
+.childrensub-2{
+    font-family:arial;
+    font-size:20px;
+    margin-left:890px;
+    margin-top:-110px;
+}
+.childrensub3{
+ font-family:arial;
+ margin-left:890px;
+}
+.pkp-232{
+    margin-top:70px;
+    margin-left:700px;
+    width:565px;
+}
+.arrow-2{
+    color:goldenrod;
+    position:relative;
+    left:1240px;
+    top:-140px;
+    width:100px;
+}
+#children-3{
+margin-left:700px;
+width:175px;
+height:150px;
+}
+.child--41{
+    font-family:arial;
+    font-size:20px;
+    margin-left:900px;
+    margin-top:-130px;
+}
+.childrensub4{
+    font-family:arial;
+ margin-left:900px;
+}
+.pkp-233{
+    margin-top:90px;
+    margin-left:700px;
+    width:565px;
+}
+.arrow-3{
+    color:goldenrod;
+    position:relative;
+    left:1245px;
+    top:-155px;
+    width:100px;
+}
+.rel-1{
+    position:relative;
+    top:-320px;
+}
+/* making of last part that is 3 individuals boxes that is arrange in a row */
+.mainmember-1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.ui-1{
+    position:relative;
+    top:30px;
+    left:20px;
+    color:goldenrod;}
+.web-2{
+    position:relative;
+    top:30px;
+    left:20px;
+    color:goldenrod;
+}
+.mobile-3{
+    position:relative;
+    top:30px;
+    left:20px;
+    color:goldenrod;
+  
+
+}
+div > .mainchild-1{
+    height:250px;
+    width:300px;
+    border:1px solid white;
+    margin:2px;
+}
+.mainsubchild-1{
+    font-family:arial;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:70px;
+
+} 
+.mainsubchild--1{
+    font-family:arial;
+    margin-left:20px;
+}
+
+
+div > .mainchild-2{
+    height:250px;
+    width:300px;
+    border:1px solid white;
+    margin:2px;
+}
+.mainsubchild-2{
+    font-family:arial;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:70px;
+
+}
+.mainsubchild--2{
+    font-family:arial;
+    margin-left:20px;
+
+}
+div > .mainchild-3{
+    height:250px;
+    width:300px;
+    border:1px solid white;
+    margin:2px;
+}
+.mainsubchild-3{
+    font-family:arial;
+    font-size:20px;
+    margin-left:20px;
+    margin-top:70px;
+
+}
+.mainsubchild--3{
+    font-family:arial;
+    margin-left:20px;
+}
+.itemsss{
+    background-color:rgb(75, 70, 70)
+}
+.rel-2{
+    position:relative;
+    top:-320px;
+}
+
+ 
+ 
